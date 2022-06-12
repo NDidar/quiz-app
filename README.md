@@ -1,3 +1,7 @@
+<h1 align="center">
+    <a s href="https://ndidar.github.io/quiz-app/">Quiz app</a>
+</h1>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
