@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ndidar.github.io/quiz-app/",
-  "name": "practics",
+  "homepage": "https://ndidar.github.io/",
+  "name": "quiz-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
