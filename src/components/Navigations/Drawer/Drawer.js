@@ -4,9 +4,9 @@ import BackDrop from "../../UI/BackDrop/BackDrop";
 import {NavLink} from "react-router-dom";
 
 const Links = [
-    {to: '/', label: 'Список', exact: true},
-    {to: '/auth', label: 'Авторизация', exact: false},
-    {to: '/quiz-creator', label: 'Создать тест', exact: false},
+    {to: '/', label: 'Список', exact: 'true'},
+    {to: '/auth', label: 'Авторизация', exact: 'false'},
+    {to: '/quiz-creator', label: 'Создать тест', exact: 'false'},
 ]
 
 class Drawer extends Component  {
@@ -18,7 +18,7 @@ class Drawer extends Component  {
                     <NavLink
                         to={link.to}
                         exact={link.exact}
-                        activeClassName={'active'}
+                        activeclassname='active'
                         onClick={this.props.onClose}
                     >
                         {link.label}
